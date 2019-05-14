@@ -1,0 +1,27 @@
+{
+    "root": "",
+    "title": "Styleguide",
+    "gitbook": "3.2.2",
+    "plugins": ["parts-autoindex", "theme-api"],
+    "pluginsConfig": {
+        "parts-autoindex": {
+            "level": 1,
+            "trim": 0
+        },
+        "theme-api": {
+            "theme": "dark",
+            "split": true,
+            "languages": [
+            {
+                "lang":"java",
+                "name": "Java",
+                "default": "true"
+            },
+            {
+                "lang": "cpp",
+                "name": "C++"
+            }
+            ]
+        }
+    }
+}
